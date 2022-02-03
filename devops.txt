@@ -1,6 +1,6 @@
 Task 1:(change version name and dev or app(eg) in valkyrie-x and see the step line also)
 
-gcloud source repos clone valkyrie-app
+gcloud source repos clone valkyrie-app  //write as per given in ques
 cd valkyrie-app
 cat > Dockerfile <<EOF
 FROM golang:1.10
